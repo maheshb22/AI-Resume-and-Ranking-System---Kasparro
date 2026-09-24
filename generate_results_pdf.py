@@ -172,7 +172,11 @@ def build_pdf() -> None:
             )
 
         json_block = json.dumps(record, indent=2, ensure_ascii=False)
-        story.append(Paragraph(f"Rank {item.get('rank', '-')}: {clean_text(item.get('candidate') or item.get('candidate_name'))}", styles["ReportHeading"]))
+        candidate_label = clean_text(item.get('candidate') or item.get('candidate_name'))
+        if item.get("eligible"):
+            story.append(Paragraph(f"Rank {item.get('rank', '-')}: {candidate_label}", styles["ReportHeading"]))
+        else:
+            story.append(Paragraph(candidate_label, styles["ReportHeading"]))
         story.append(Preformatted(json_block, styles["CodeBlock"]))
         story.append(Spacer(1, 3))
 
