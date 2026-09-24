@@ -53,6 +53,7 @@ class ScoreBreakdown:
 @dataclass(slots=True)
 class ScreeningResult:
     rank: Optional[int]
+    candidate: str
     candidate_name: str
     file_name: str
     eligible: bool

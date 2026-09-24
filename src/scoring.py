@@ -162,11 +162,13 @@ def score_candidate(parsed: ParsedResume, github: GitHubEnrichmentResult | None)
 
 def build_result(parsed: ParsedResume, github: GitHubEnrichmentResult | None) -> ScreeningResult:
     matched_skills = parsed.matched_skills or detect_skills(parsed.text)
+    candidate_name = parsed.candidate_name or parsed.email or parsed.file_name
     eligible, rejection_reasons, evidence = assess_eligibility(parsed)
     if not eligible:
         return ScreeningResult(
             rank=None,
-            candidate_name=parsed.candidate_name or parsed.email or parsed.file_name,
+            candidate=candidate_name,
+            candidate_name=candidate_name,
             file_name=parsed.file_name,
             eligible=False,
             total_score=0,
@@ -213,7 +215,8 @@ def build_result(parsed: ParsedResume, github: GitHubEnrichmentResult | None) ->
 
     return ScreeningResult(
         rank=None,
-        candidate_name=parsed.candidate_name or parsed.email or parsed.file_name,
+        candidate=candidate_name,
+        candidate_name=candidate_name,
         file_name=parsed.file_name,
         eligible=True,
         total_score=total,

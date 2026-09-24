@@ -31,6 +31,7 @@ def run_pipeline(input_dir: Path, output_path: Path, github_token: str | None = 
             failed_unreadable += 1
             result = ScreeningResult(
                 rank=None,
+                candidate=resume_path.stem,
                 candidate_name=resume_path.stem,
                 file_name=resume_path.name,
                 eligible=False,
