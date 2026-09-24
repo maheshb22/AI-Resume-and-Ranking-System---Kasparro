@@ -10,8 +10,9 @@ from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import mm
 from reportlab.platypus import (
     PageBreak,
+    ListFlowable,
+    ListItem,
     Paragraph,
-    Preformatted,
     SimpleDocTemplate,
     Spacer,
     Table,
@@ -32,6 +33,14 @@ def clean_text(value: object) -> str:
         .replace(">", "&gt;")
         .replace("\n", " ")
         .strip()
+    )
+
+
+def make_bullets(items: list[str], styles, *, left_indent: int = 14) -> ListFlowable:
+    return ListFlowable(
+        [ListItem(Paragraph(clean_text(item), styles["SmallBody"])) for item in items],
+        bulletType="bullet",
+        leftIndent=left_indent,
     )
 
 
@@ -144,41 +153,52 @@ def build_pdf() -> None:
     story.append(Spacer(1, 8))
 
     story.append(Paragraph("Candidate Records", styles["ReportHeading"]))
-    story.append(Paragraph("The blocks below mirror the assignment's JSON-style output shape.", styles["ReportBody"]))
+    story.append(Paragraph("The blocks below are written in a readable format with the same key information as the JSON output.", styles["ReportBody"]))
 
     for item in results:
-        record = {
-            "candidate": item.get("candidate") or item.get("candidate_name"),
-            "eligible": item.get("eligible"),
-            "rejection_reasons": item.get("rejection_reasons", []),
-            "matched_skills": item.get("matched_skills", []),
-        }
-        if item.get("eligible"):
-            record.update(
-                {
-                    "total_score": item.get("total_score"),
-                    "score_breakdown": item.get("score_breakdown", {}),
-                    "project_summary": item.get("project_summary"),
-                    "github_summary": item.get("github_summary"),
-                    "strengths": item.get("strengths", []),
-                    "concerns": item.get("concerns", []),
-                }
-            )
-        else:
-            record.update(
-                {
-                    "file_name": item.get("file_name"),
-                }
-            )
-
-        json_block = json.dumps(record, indent=2, ensure_ascii=False)
         candidate_label = clean_text(item.get('candidate') or item.get('candidate_name'))
+        eligible = bool(item.get("eligible"))
         if item.get("eligible"):
             story.append(Paragraph(f"Rank {item.get('rank', '-')}: {candidate_label}", styles["ReportHeading"]))
         else:
             story.append(Paragraph(candidate_label, styles["ReportHeading"]))
-        story.append(Preformatted(json_block, styles["CodeBlock"]))
-        story.append(Spacer(1, 3))
+        story.append(Paragraph(f"Eligibility: {'Eligible' if eligible else 'Rejected'}", styles["ReportBody"]))
+
+        matched_skills = ", ".join(item.get("matched_skills", [])[:12])
+        if matched_skills:
+            story.append(Paragraph(f"Matched skills: {clean_text(matched_skills)}", styles["SmallBody"]))
+
+        if eligible:
+            score_breakdown = item.get("score_breakdown", {})
+            story.append(
+                Paragraph(
+                    f"Total score: <b>{item.get('total_score', 0)}</b>  |  AI depth: {score_breakdown.get('ai_project_depth', 0)}  |  Python backend: {score_breakdown.get('python_backend', 0)}  |  Cloud/full-stack: {score_breakdown.get('cloud_fullstack', 0)}  |  GitHub: {score_breakdown.get('github', 0)}  |  Engineering depth: {score_breakdown.get('engineering_depth', 0)}",
+                    styles["SmallBody"],
+                )
+            )
+            project_summary = item.get("project_summary")
+            if project_summary:
+                story.append(Paragraph(f"Project summary: {clean_text(project_summary)}", styles["SmallBody"]))
+            github_summary = item.get("github_summary")
+            if github_summary:
+                story.append(Paragraph(f"GitHub summary: {clean_text(github_summary)}", styles["SmallBody"]))
+            strengths = item.get("strengths", [])
+            if strengths:
+                story.append(Paragraph("Strengths:", styles["SmallBody"]))
+                story.append(make_bullets(strengths, styles))
+            concerns = item.get("concerns", [])
+            if concerns:
+                story.append(Paragraph("Concerns:", styles["SmallBody"]))
+                story.append(make_bullets(concerns, styles))
+        else:
+            reasons = item.get("rejection_reasons", [])
+            file_name = item.get("file_name")
+            if file_name:
+                story.append(Paragraph(f"File: {clean_text(file_name)}", styles["SmallBody"]))
+            if reasons:
+                story.append(Paragraph("Rejection reasons:", styles["SmallBody"]))
+                story.append(make_bullets(reasons, styles))
+        story.append(Spacer(1, 6))
 
     story.append(Paragraph("Rejected Candidates", styles["ReportHeading"]))
     rejected = [item for item in results if not item["eligible"]]
