@@ -11,7 +11,7 @@ from reportlab.lib.units import mm
 from reportlab.platypus import (
     PageBreak,
     Paragraph,
-    KeepTogether,
+    Preformatted,
     SimpleDocTemplate,
     Spacer,
     Table,
@@ -86,6 +86,17 @@ def build_pdf() -> None:
             spaceAfter=2,
         )
     )
+    styles.add(
+        ParagraphStyle(
+            name="CodeBlock",
+            parent=styles["Code"],
+            fontName="Courier",
+            fontSize=7.8,
+            leading=9.2,
+            spaceBefore=4,
+            spaceAfter=6,
+        )
+    )
 
     doc = SimpleDocTemplate(
         str(RESULTS_PDF),
@@ -129,46 +140,41 @@ def build_pdf() -> None:
             ]
         )
     )
-    story.append(KeepTogether([summary_table]))
+    story.append(summary_table)
     story.append(Spacer(1, 8))
 
-    story.append(Paragraph("Top Ranked Candidates", styles["ReportHeading"]))
-    for item in results[:10]:
-        evidence_bits = []
-        if item.get("project_summary"):
-            evidence_bits.append(item["project_summary"])
-        if item.get("github_summary"):
-            evidence_bits.append(item["github_summary"])
-        evidence = clean_text(" | ".join(evidence_bits))
-        if len(evidence) > 220:
-            evidence = evidence[:217].rstrip() + "..."
+    story.append(Paragraph("Candidate Records", styles["ReportHeading"]))
+    story.append(Paragraph("The blocks below mirror the assignment's JSON-style output shape.", styles["ReportBody"]))
 
-        candidate_label = clean_text(item.get("candidate") or item.get("candidate_name"))
-        candidate_header = f"Rank {item['rank']} | {candidate_label} | Score {item['total_score']}"
-        candidate_table = Table(
-            [["Metric", "Value"], ["Candidate", candidate_label], ["File", clean_text(item["file_name"])], ["Score", item["total_score"]]],
-            colWidths=[28 * mm, 100 * mm],
-        )
-        candidate_table.setStyle(
-            TableStyle(
-                [
-                    ("BACKGROUND", (0, 0), (-1, 0), colors.HexColor("#111827")),
-                    ("TEXTCOLOR", (0, 0), (-1, 0), colors.white),
-                    ("FONTNAME", (0, 0), (-1, 0), "Helvetica-Bold"),
-                    ("GRID", (0, 0), (-1, -1), 0.35, colors.HexColor("#cbd5e1")),
-                    ("ROWBACKGROUNDS", (0, 1), (-1, -1), [colors.white, colors.HexColor("#f8fafc")]),
-                    ("VALIGN", (0, 0), (-1, -1), "TOP"),
-                    ("LEFTPADDING", (0, 0), (-1, -1), 5),
-                    ("RIGHTPADDING", (0, 0), (-1, -1), 5),
-                    ("TOPPADDING", (0, 0), (-1, -1), 4),
-                    ("BOTTOMPADDING", (0, 0), (-1, -1), 4),
-                ]
+    for item in results:
+        record = {
+            "candidate": item.get("candidate") or item.get("candidate_name"),
+            "eligible": item.get("eligible"),
+            "rejection_reasons": item.get("rejection_reasons", []),
+            "matched_skills": item.get("matched_skills", []),
+        }
+        if item.get("eligible"):
+            record.update(
+                {
+                    "total_score": item.get("total_score"),
+                    "score_breakdown": item.get("score_breakdown", {}),
+                    "project_summary": item.get("project_summary"),
+                    "github_summary": item.get("github_summary"),
+                    "strengths": item.get("strengths", []),
+                    "concerns": item.get("concerns", []),
+                }
             )
-        )
-        story.append(Paragraph(candidate_header, styles["ReportHeading"]))
-        story.append(candidate_table)
-        story.append(Paragraph(f"Key evidence: {evidence}", styles["SmallBody"]))
-        story.append(Spacer(1, 4))
+        else:
+            record.update(
+                {
+                    "file_name": item.get("file_name"),
+                }
+            )
+
+        json_block = json.dumps(record, indent=2, ensure_ascii=False)
+        story.append(Paragraph(f"Rank {item.get('rank', '-')}: {clean_text(item.get('candidate') or item.get('candidate_name'))}", styles["ReportHeading"]))
+        story.append(Preformatted(json_block, styles["CodeBlock"]))
+        story.append(Spacer(1, 3))
 
     story.append(Paragraph("Rejected Candidates", styles["ReportHeading"]))
     rejected = [item for item in results if not item["eligible"]]
@@ -189,15 +195,6 @@ def build_pdf() -> None:
     story.append(
         Paragraph(
             "GitHub enrichment is best-effort and may be rate-limited. The machine-readable source of truth remains the JSON output.",
-            styles["ReportBody"],
-        )
-    )
-
-    story.append(Spacer(1, 8))
-    story.append(Paragraph("How to read the report", styles["ReportHeading"]))
-    story.append(
-        Paragraph(
-            "The summary table shows the overall batch size. The ranked section lists the strongest eligible candidates first, with a short evidence note under each candidate so the content fits neatly within the page width.",
             styles["ReportBody"],
         )
     )
