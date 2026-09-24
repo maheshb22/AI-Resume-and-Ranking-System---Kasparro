@@ -21,6 +21,12 @@ AI resume screening and ranking pipeline for the SDE intern assignment.
 ## Run
 
 ```bash
+python main.py
+```
+
+If you prefer to call the module directly, this also works:
+
+```bash
 python src/main.py --input resumes --output output/results.json
 ```
 
