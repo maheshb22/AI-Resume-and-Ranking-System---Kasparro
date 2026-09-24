@@ -1,0 +1,2681 @@
+{
+  "batch_summary": {
+    "total_resumes": 50,
+    "successfully_parsed": 50,
+    "eligible": 37,
+    "rejected": 13,
+    "failed_unreadable": 0
+  },
+  "results": [
+    {
+      "rank": 1,
+      "candidate_name": "Gourab Das",
+      "file_name": "candidate_17.pdf",
+      "eligible": true,
+      "total_score": 90,
+      "score_breakdown": {
+        "ai_project_depth": 40,
+        "python_backend": 30,
+        "cloud_fullstack": 15,
+        "github": 0,
+        "engineering_depth": 5,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "Flask",
+        "Django",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "AWS",
+        "CI/CD",
+        "React",
+        "MongoDB",
+        "MySQL",
+        "LangChain",
+        "LangGraph",
+        "RAG",
+        "Agents",
+        "LLM",
+        "Testing",
+        "Concurrency",
+        "Caching",
+        "Queues"
+      ],
+      "project_summary": "Engineered tool-augmented AI agents usingLangGraphto automate intelligence gathering. Integrated generic",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/gdas37467",
+      "strengths": [
+        "Strong AI or agentic project evidence",
+        "Strong Python backend signal",
+        "Solid deployment or full-stack signal",
+        "Non-trivial engineering depth"
+      ],
+      "concerns": [
+        "No measurable GitHub signal"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "Neo4j graphdatabase to analyze complex suspect linkages. Built RESTful APIs (Django/FastAPI) to visualize",
+          "DevelopedFlaskAPIs and aMongoDBbackend for a medical application, deploying to AWS and ensuring",
+          "SMILE |Django, React, PostgreSQL, Docker, NginxNovember 2023 – April 2024"
+        ],
+        "ai": [
+          "Engineered tool-augmented AI agents usingLangGraphto automate intelligence gathering. Integrated generic",
+          "sources. LeveragedClickHousewith concurrent execution for low-latency, high-performance analytics.",
+          "Capgemini Bangalore, India"
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 2,
+      "candidate_name": "Hari Shanker Sharma",
+      "file_name": "candidate_41.pdf",
+      "eligible": true,
+      "total_score": 90,
+      "score_breakdown": {
+        "ai_project_depth": 40,
+        "python_backend": 30,
+        "cloud_fullstack": 15,
+        "github": 0,
+        "engineering_depth": 5,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "AWS",
+        "CI/CD",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "LangChain",
+        "LangGraph",
+        "RAG",
+        "Vector Search",
+        "Agents",
+        "LLM",
+        "Testing",
+        "Concurrency",
+        "Caching",
+        "Observability",
+        "Kubernetes"
+      ],
+      "project_summary": "Engineered SSE streaming with LLM-powered intent resolution and multi-",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/actions",
+      "strengths": [
+        "Strong AI or agentic project evidence",
+        "Strong Python backend signal",
+        "Solid deployment or full-stack signal",
+        "Non-trivial engineering depth"
+      ],
+      "concerns": [
+        "No measurable GitHub signal"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "Architected the FastAPI AI runtime for a Component Intelligence Plat-",
+          "ing APIs, and AI agent orchestration using Python, FastAPI,",
+          "Python, JavaScript, TypeScript, Java, SQL"
+        ],
+        "ai": [
+          "Engineered SSE streaming with LLM-powered intent resolution and multi-",
+          "provider routing via LiteLLM, Langchain, Langraph, session persistence,",
+          "brokerages (Zerodha, Dhan, AngelOne, 5paisa, Shoonya, etc.) via secure"
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 3,
+      "candidate_name": "prathameshpatil330@gmail.com",
+      "file_name": "candidate_35.pdf",
+      "eligible": true,
+      "total_score": 90,
+      "score_breakdown": {
+        "ai_project_depth": 40,
+        "python_backend": 30,
+        "cloud_fullstack": 15,
+        "github": 0,
+        "engineering_depth": 5,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "AWS",
+        "CI/CD",
+        "React",
+        "Next.js",
+        "Node.js",
+        "Express",
+        "LangGraph",
+        "RAG",
+        "Vector Search",
+        "Agents",
+        "LLM",
+        "PyTorch",
+        "TensorFlow",
+        "scikit-learn",
+        "Testing",
+        "Concurrency",
+        "Caching",
+        "Observability",
+        "Queues",
+        "Kubernetes"
+      ],
+      "project_summary": "Designed and deployed scalable ML-backed REST APIs using FastAPI and AWS Lambda, integrating LLM APIs and OOP",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/professional",
+      "strengths": [
+        "Strong AI or agentic project evidence",
+        "Strong Python backend signal",
+        "Solid deployment or full-stack signal",
+        "Non-trivial engineering depth"
+      ],
+      "concerns": [
+        "No measurable GitHub signal"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "AI ML Development:Python, TensorFlow, scikit-learn, PyTorch, RAG Pipelines, FastAPI, Unit Testing",
+          "Designed and deployed scalable ML-backed REST APIs using FastAPI and AWS Lambda, integrating LLM APIs and OOP",
+          "Built a React + FastAPI frontend deployed on AWS with OpenTelemetry instrumentation for full-stack production"
+        ],
+        "ai": [
+          "Designed and deployed scalable ML-backed REST APIs using FastAPI and AWS Lambda, integrating LLM APIs and OOP",
+          "Engineered an adaptive multi-agent RAG platform leveraging LangGraph and ChromaDB, integrating LLM APIs for",
+          "plus Gemini embeddings to reduce infrastructure costs by ~30% while maintaining high-quality response performance."
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 4,
+      "candidate_name": "RAJ THUMAR",
+      "file_name": "candidate_40.pdf",
+      "eligible": true,
+      "total_score": 90,
+      "score_breakdown": {
+        "ai_project_depth": 40,
+        "python_backend": 30,
+        "cloud_fullstack": 15,
+        "github": 0,
+        "engineering_depth": 5,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "Flask",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "AWS",
+        "CI/CD",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "MySQL",
+        "RAG",
+        "LLM",
+        "Concurrency",
+        "Caching",
+        "Observability",
+        "Queues"
+      ],
+      "project_summary": "Built AI-powered workflow automation by integrating OpenAI, Gemini, RAG, and MCP into backend services for intelligent",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/raj-github",
+      "strengths": [
+        "Strong AI or agentic project evidence",
+        "Strong Python backend signal",
+        "Solid deployment or full-stack signal",
+        "Non-trivial engineering depth"
+      ],
+      "concerns": [
+        "No measurable GitHub signal"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "SDE Intern (Python, Flask, Phantom, Splunk SOAR System)"
+        ],
+        "ai": [
+          "Built AI-powered workflow automation by integrating OpenAI, Gemini, RAG, and MCP into backend services for intelligent",
+          "AI Workflow Orchestration Engine(NestJS, Apache Kafka, PostgreSQL, Redis, OpenAI, Gemini):",
+          "Built a distributed AI workflow engine to execute multi-step LLM pipelines using event-driven architecture."
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 5,
+      "candidate_name": "V Sree Raghu Vardhan",
+      "file_name": "candidate_30.pdf",
+      "eligible": true,
+      "total_score": 90,
+      "score_breakdown": {
+        "ai_project_depth": 40,
+        "python_backend": 30,
+        "cloud_fullstack": 15,
+        "github": 0,
+        "engineering_depth": 5,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "Django",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "AWS",
+        "CI/CD",
+        "React",
+        "Node.js",
+        "MongoDB",
+        "LangChain",
+        "LangGraph",
+        "RAG",
+        "Vector Search",
+        "Agents",
+        "LLM",
+        "Testing",
+        "Concurrency",
+        "Caching",
+        "Observability",
+        "Kubernetes"
+      ],
+      "project_summary": "Redis, and REST APIs. Built enterprise AI agents, RAG pipelines, semantic retrieval systems, structured output validation, and scalable backend ser...",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/summary",
+      "strengths": [
+        "Strong AI or agentic project evidence",
+        "Strong Python backend signal",
+        "Solid deployment or full-stack signal",
+        "Non-trivial engineering depth"
+      ],
+      "concerns": [
+        "No measurable GitHub signal"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "Developed production-grade backend services and REST APIs using Python, FastAPI, MongoDB, Redis, and SQL to power AI-driven enterprise HRMS",
+          "Built a production Business Requirements Document generation platform using FastAPI, Azure/OpenAI LLM APIs, structured document templates, and",
+          "Worked with Django, Node.js, Azure PowerShell and React"
+        ],
+        "ai": [
+          "Redis, and REST APIs. Built enterprise AI agents, RAG pipelines, semantic retrieval systems, structured output validation, and scalable backend services for",
+          "Developed production-grade backend services and REST APIs using Python, FastAPI, MongoDB, Redis, and SQL to power AI-driven enterprise HRMS",
+          "Built LangChain-based multi-step AI agent workflows integrating enterprise APIs, MCP tools, semantic retrieval, document processing, and business"
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 6,
+      "candidate_name": "abhinavmishra3322@gmail.com",
+      "file_name": "candidate_10.pdf",
+      "eligible": true,
+      "total_score": 88,
+      "score_breakdown": {
+        "ai_project_depth": 40,
+        "python_backend": 30,
+        "cloud_fullstack": 15,
+        "github": 0,
+        "engineering_depth": 3,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Redis",
+        "CI/CD",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "LangGraph",
+        "RAG",
+        "Agents",
+        "LLM",
+        "Concurrency",
+        "Caching",
+        "Observability"
+      ],
+      "project_summary": "agentic",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/abhinavmishra32",
+      "strengths": [
+        "Strong AI or agentic project evidence",
+        "Strong Python backend signal",
+        "Solid deployment or full-stack signal",
+        "Non-trivial engineering depth"
+      ],
+      "concerns": [
+        "No measurable GitHub signal"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "FastAPI",
+          "(Python",
+          "Python"
+        ],
+        "ai": [
+          "agentic",
+          "AI-driven",
+          "LangGraph,"
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 7,
+      "candidate_name": "Arjun Kumar",
+      "file_name": "candidate_08.pdf",
+      "eligible": true,
+      "total_score": 88,
+      "score_breakdown": {
+        "ai_project_depth": 40,
+        "python_backend": 30,
+        "cloud_fullstack": 15,
+        "github": 0,
+        "engineering_depth": 3,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "Django",
+        "PostgreSQL",
+        "AWS",
+        "CI/CD",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "MongoDB",
+        "LangChain",
+        "LangGraph",
+        "RAG",
+        "Vector Search",
+        "Agents",
+        "LLM",
+        "TensorFlow",
+        "scikit-learn",
+        "Concurrency",
+        "Queues"
+      ],
+      "project_summary": "Python, BERT, NLP, LangChain, ReactJS, Django REST API, PostgreSQL",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/arjunkumaritsme12",
+      "strengths": [
+        "Strong AI or agentic project evidence",
+        "Strong Python backend signal",
+        "Solid deployment or full-stack signal",
+        "Non-trivial engineering depth"
+      ],
+      "concerns": [
+        "No measurable GitHub signal"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "Python, BERT, NLP, LangChain, ReactJS, Django REST API, PostgreSQL",
+          "the Django REST backend handles concurrent sessions statelessly, with a ReactJS recruiter dashboard on top.",
+          "Python, FastAPI, OpenCV, Vision Transformer (ViT), LangGraph, Next.js"
+        ],
+        "ai": [
+          "Python, BERT, NLP, LangChain, ReactJS, Django REST API, PostgreSQL",
+          "Built an end-to-end resume screening tool using BERT embeddings and NLP for semantic matching, hitting96% accuracy;",
+          "Python, FastAPI, OpenCV, Vision Transformer (ViT), LangGraph, Next.js"
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 8,
+      "candidate_name": "Nevil Jasmin Mehta",
+      "file_name": "candidate_50.pdf",
+      "eligible": true,
+      "total_score": 88,
+      "score_breakdown": {
+        "ai_project_depth": 40,
+        "python_backend": 30,
+        "cloud_fullstack": 15,
+        "github": 0,
+        "engineering_depth": 3,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "Flask",
+        "Django",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "AWS",
+        "React",
+        "MongoDB",
+        "MySQL",
+        "RAG",
+        "Vector Search",
+        "LLM",
+        "Concurrency",
+        "Caching",
+        "Queues",
+        "Streamlit"
+      ],
+      "project_summary": " Built backend systems with MongoDB and MySQL, implementing NLP-based data processing and text summarization.",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/leetcode",
+      "strengths": [
+        "Strong AI or agentic project evidence",
+        "Strong Python backend signal",
+        "Solid deployment or full-stack signal",
+        "Non-trivial engineering depth"
+      ],
+      "concerns": [
+        "No measurable GitHub signal"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          " Delivered and maintained APIs using Django REST Framework, focusing on performance and system efficiency.",
+          " Optimized data queries and automated CAD workflows using Python, improving scalability and reducing manual effort.",
+          "Python Developer, Rejoicehub Solutions Jan 2022 – May 2022"
+        ],
+        "ai": [
+          " Built backend systems with MongoDB and MySQL, implementing NLP-based data processing and text summarization.",
+          " Built a document platform using RAG, FastAPI, Redis, Celery, pgvector, Nginx & LLMs, improving retrieval accuracy.",
+          " Implemented async processing, embeddings & Dockerized AWS-ready architecture, reduce processing time by 45%."
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 9,
+      "candidate_name": "Shaiksultanasumaiya623@gmail.com",
+      "file_name": "candidate_28.pdf",
+      "eligible": true,
+      "total_score": 88,
+      "score_breakdown": {
+        "ai_project_depth": 40,
+        "python_backend": 29,
+        "cloud_fullstack": 15,
+        "github": 0,
+        "engineering_depth": 4,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Docker",
+        "GCP",
+        "CI/CD",
+        "React",
+        "TypeScript",
+        "MongoDB",
+        "LangChain",
+        "LangGraph",
+        "RAG",
+        "Agents",
+        "LLM",
+        "scikit-learn",
+        "Testing",
+        "Observability"
+      ],
+      "project_summary": "◦Designed prompt architectures and orchestration logic for a multi-agent document-generation system (Request Analysis,",
+      "github_summary": "No GitHub profile found on the resume.",
+      "strengths": [
+        "Strong AI or agentic project evidence",
+        "Strong Python backend signal",
+        "Solid deployment or full-stack signal",
+        "Non-trivial engineering depth"
+      ],
+      "concerns": [
+        "No measurable GitHub signal"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "Languages: Python, Java, TypeScript, SQL",
+          "Backend & System Design: REST APIs, GraphQL, FastAPI, RBAC, OAuth 2.0, microservices, multi-tenant architecture",
+          "AI/LLM: LangChain, LangGraph, RAG systems, agentic workflows, prompt engineering, scikit-learn"
+        ],
+        "ai": [
+          "◦Designed prompt architectures and orchestration logic for a multi-agent document-generation system (Request Analysis,",
+          "API failure rate by∼45%; delivered real-time LLM response streaming via Server-Sent Events, cutting perceived latency",
+          "◦Built a 3-layer privacy-risk analysis system (FastAPI + React): a spaCy/Microsoft Presidio NLP layer detecting 8+ PII"
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 10,
+      "candidate_name": "vaibhavwakde266@gmail.com",
+      "file_name": "candidate_33.pdf",
+      "eligible": true,
+      "total_score": 87,
+      "score_breakdown": {
+        "ai_project_depth": 40,
+        "python_backend": 30,
+        "cloud_fullstack": 12,
+        "github": 0,
+        "engineering_depth": 5,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "Flask",
+        "Docker",
+        "MySQL",
+        "LangChain",
+        "LangGraph",
+        "LlamaIndex",
+        "RAG",
+        "Vector Search",
+        "Agents",
+        "LLM",
+        "Testing",
+        "Concurrency",
+        "Caching",
+        "Observability",
+        "Streamlit"
+      ],
+      "project_summary": "◦Built an AI-powered invoice analysis platform using Python, Flask, OCR, RAG, and Weaviate, enabling",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/education",
+      "strengths": [
+        "Strong AI or agentic project evidence",
+        "Strong Python backend signal",
+        "Solid deployment or full-stack signal",
+        "Non-trivial engineering depth"
+      ],
+      "concerns": [
+        "No measurable GitHub signal"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "◦Built an AI-powered invoice analysis platform using Python, Flask, OCR, RAG, and Weaviate, enabling",
+          "Qwen3-Embedding-0.6B) for context-aware retrieval and asynchronous Flask APIs for real-time generation.",
+          "◦Tech Stack: Python, Flask, Beautiful Soup, HTML/CSS, JavaScript."
+        ],
+        "ai": [
+          "◦Built an AI-powered invoice analysis platform using Python, Flask, OCR, RAG, and Weaviate, enabling",
+          "◦Implemented embedding caching to reduce repeated document processing by ˜50%, and built secure RESTful",
+          "◦Built an AI system that generates website templates from text prompts, using RAG (LangChain, LlamaIndex,"
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 11,
+      "candidate_name": "Yash Maini",
+      "file_name": "candidate_13.pdf",
+      "eligible": true,
+      "total_score": 87,
+      "score_breakdown": {
+        "ai_project_depth": 40,
+        "python_backend": 30,
+        "cloud_fullstack": 15,
+        "github": 0,
+        "engineering_depth": 2,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "Flask",
+        "PostgreSQL",
+        "Docker",
+        "GCP",
+        "AWS",
+        "CI/CD",
+        "MongoDB",
+        "LangChain",
+        "LangGraph",
+        "RAG",
+        "Vector Search",
+        "Agents",
+        "LLM",
+        "PyTorch",
+        "TensorFlow",
+        "scikit-learn",
+        "Testing",
+        "Concurrency"
+      ],
+      "project_summary": "Replaced manual PBX workflows for enterprise clientSiemcomby architecting aproduction LLM voice agenton FreeSWITCH +",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/yashmaini30",
+      "strengths": [
+        "Strong AI or agentic project evidence",
+        "Strong Python backend signal",
+        "Solid deployment or full-stack signal"
+      ],
+      "concerns": [
+        "No measurable GitHub signal"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "Cut end-to-end voice latency40%to under600msunder concurrent load by re-engineering theasync Python inference layerwith",
+          "Designed and deployed anend-to-end automated ingestion pipeline(Python, PostgreSQL, Docker, Orthanc PACS) achieving95%",
+          "Backend & APIs: Python, FastAPI, Flask, AsyncIO, REST, WebSockets, Microservices, Salesforce/SMTP integrations, Bash"
+        ],
+        "ai": [
+          "Replaced manual PBX workflows for enterprise clientSiemcomby architecting aproduction LLM voice agenton FreeSWITCH +",
+          "SIP, orchestrating real-timeSTT→LLM→TTSacross concurrent multi-channel calls and owning integration through go-live.",
+          "Cut new-agent integration time60%by building amulti-agent orchestration SDKthat unified8 agentsbehind one interface with"
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 12,
+      "candidate_name": "PAVANI A",
+      "file_name": "candidate_38.pdf",
+      "eligible": true,
+      "total_score": 86,
+      "score_breakdown": {
+        "ai_project_depth": 40,
+        "python_backend": 30,
+        "cloud_fullstack": 15,
+        "github": 0,
+        "engineering_depth": 1,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "Flask",
+        "Django",
+        "PostgreSQL",
+        "Docker",
+        "CI/CD",
+        "React",
+        "Next.js",
+        "MongoDB",
+        "MySQL",
+        "RAG",
+        "LLM",
+        "TensorFlow"
+      ],
+      "project_summary": "powered applications, and LLM integrations. Skilled in full-stack development, REST APIs, workflow automation, Docker, CI/CD,",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/pavani-a",
+      "strengths": [
+        "Strong AI or agentic project evidence",
+        "Strong Python backend signal",
+        "Solid deployment or full-stack signal"
+      ],
+      "concerns": [
+        "No measurable GitHub signal",
+        "Limited evidence of testing, concurrency, or observability"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "Automated Evaluation System (AutoEval) | React.js, Next.js, Django, FastAPI, PostgreSQL",
+          "Built a React.js (Next.js) frontend integrated with Django/FastAPI REST APIs.",
+          "Pantry Management | Python, Django, Mysql, HTML/CSS, JavaScript"
+        ],
+        "ai": [
+          "powered applications, and LLM integrations. Skilled in full-stack development, REST APIs, workflow automation, Docker, CI/CD,",
+          "Secured 1st place in Sequoia AI Hackathon by automating 40+ user workflows, building an AI-driven system.",
+          "Engineered automation for 30+ REST APIs and 300+ UI workflows, improving reliability and coverage."
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 13,
+      "candidate_name": "Aditi Kala",
+      "file_name": "candidate_37.pdf",
+      "eligible": true,
+      "total_score": 85,
+      "score_breakdown": {
+        "ai_project_depth": 40,
+        "python_backend": 30,
+        "cloud_fullstack": 14,
+        "github": 0,
+        "engineering_depth": 1,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "Flask",
+        "PostgreSQL",
+        "Docker",
+        "GCP",
+        "React",
+        "Next.js",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "RAG",
+        "LLM",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "project_summary": "– Built an automated agent QA framework with scripted and LLM-to-LLM test modes and an LLM scoring engine,",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/why-aditi",
+      "strengths": [
+        "Strong AI or agentic project evidence",
+        "Strong Python backend signal",
+        "Solid deployment or full-stack signal"
+      ],
+      "concerns": [
+        "No measurable GitHub signal",
+        "Limited evidence of testing, concurrency, or observability"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "Python Developer Intern Dec 2024 - Dec 2024",
+          "– Implemented a real-time push notification system in Flask using the Web Push API to deliver zone-based vehicle entry",
+          "Kalamitra | NextJs, MongoDB, Firebase, FastAPI, Gemini, Stripe, Docker | Live Demo May 2025 - June 2025"
+        ],
+        "ai": [
+          "– Built an automated agent QA framework with scripted and LLM-to-LLM test modes and an LLM scoring engine,",
+          "– Developed a machine learning shoplifting detection system using action recognition, improving detection accuracy by",
+          "F oundrly| Node.js, Express.js, MongoDB, React.js, Google Gemini | Live Demo Nov 2025 - Nov 2025"
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 14,
+      "candidate_name": "ARUNIMA SAHA",
+      "file_name": "candidate_43.pdf",
+      "eligible": true,
+      "total_score": 85,
+      "score_breakdown": {
+        "ai_project_depth": 40,
+        "python_backend": 26,
+        "cloud_fullstack": 15,
+        "github": 0,
+        "engineering_depth": 4,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Docker",
+        "GCP",
+        "AWS",
+        "MySQL",
+        "LangChain",
+        "LangGraph",
+        "RAG",
+        "Vector Search",
+        "Agents",
+        "LLM",
+        "Caching",
+        "Observability"
+      ],
+      "project_summary": "including a Text-to-SQL chatbot, a Graph RAG conversational assistant built on Neo4j, a multi-agent travel planning system using",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/professional",
+      "strengths": [
+        "Strong AI or agentic project evidence",
+        "Strong Python backend signal",
+        "Solid deployment or full-stack signal",
+        "Non-trivial engineering depth"
+      ],
+      "concerns": [
+        "No measurable GitHub signal"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "Technology Stack: Python, LangGraph, LangChain, GPT-4o, FastAPI, Chainlit, PostgreSQL, Duffel API, SerpAPI, Docker,",
+          "Built a FastAPI backend and an interactive Chainlit conversational interface, enabling users to provide travel requirements and receive",
+          "Role: GenAI Developer Stack: Python, Neo4j, Cypher, LangChain, GraphCypherQAChain, GPT-4o, LCEL, Chainlit, AWS EC2,"
+        ],
+        "ai": [
+          "including a Text-to-SQL chatbot, a Graph RAG conversational assistant built on Neo4j, a multi-agent travel planning system using",
+          "LangGraph, and a serverless microservices backend on AWS, all architected end-to-end.",
+          "RAG, Search & Knowledge"
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 15,
+      "candidate_name": "Thejeshwaar Paasila",
+      "file_name": "candidate_26.pdf",
+      "eligible": true,
+      "total_score": 85,
+      "score_breakdown": {
+        "ai_project_depth": 40,
+        "python_backend": 26,
+        "cloud_fullstack": 15,
+        "github": 0,
+        "engineering_depth": 4,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "Flask",
+        "PostgreSQL",
+        "Docker",
+        "GCP",
+        "CI/CD",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "RAG",
+        "LLM",
+        "Observability"
+      ],
+      "project_summary": "Forged frontend and backend systems usingReact Native,TypeScript, andFlask, cutting average API response",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/tejaharleys",
+      "strengths": [
+        "Strong AI or agentic project evidence",
+        "Strong Python backend signal",
+        "Solid deployment or full-stack signal",
+        "Non-trivial engineering depth"
+      ],
+      "concerns": [
+        "No measurable GitHub signal"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "Programming Languages:Python, JavaScript (ES6+), TypeScript, SQL, HTML5, CSS3",
+          "Backend Development:Node.js, Express.js, Flask, REST APIs, WebSockets, Serverless Functions, Edge Functions,",
+          "Testing, Validation & DevOps:Zod, ESLint, Prettier, SQLAlchemy, Flask-WTF, Flask-Login, CI/CD Concepts,"
+        ],
+        "ai": [
+          "Forged frontend and backend systems usingReact Native,TypeScript, andFlask, cutting average API response",
+          "Tools & Technologies:React, React Native, TypeScript, Python, Flask, Node.js, Supabase, PostgreSQL, OpenAI",
+          "API, Gemini AI, WebRTC, Tailwind CSS, Figma, REST APIs, NLP."
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 16,
+      "candidate_name": "PRIYANSHU KUMAR",
+      "file_name": "candidate_16.pdf",
+      "eligible": true,
+      "total_score": 84,
+      "score_breakdown": {
+        "ai_project_depth": 40,
+        "python_backend": 30,
+        "cloud_fullstack": 11,
+        "github": 0,
+        "engineering_depth": 3,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "MySQL",
+        "LangChain",
+        "LangGraph",
+        "RAG",
+        "Vector Search",
+        "Agents",
+        "LLM",
+        "Concurrency",
+        "Queues"
+      ],
+      "project_summary": "Experienced in full-stack development and integrating agentic solutions. Skilled in developing AI assistants, agentic",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/linkedin",
+      "strengths": [
+        "Strong AI or agentic project evidence",
+        "Strong Python backend signal",
+        "Solid deployment or full-stack signal",
+        "Non-trivial engineering depth"
+      ],
+      "concerns": [
+        "No measurable GitHub signal"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "Developed scalable backend services using FastAPI and PostgreSQL, ensuring efficient data handling and",
+          "Developed a full-stack application (FastAPI, React, SQLite) to store AI decisions and visualise PR health and",
+          "jobs (hourly, daily, weekly) with a clean React + FastAPI interface."
+        ],
+        "ai": [
+          "Experienced in full-stack development and integrating agentic solutions. Skilled in developing AI assistants, agentic",
+          "Part of the Innovation Center — contributed to design and development of next-generation AI-driven enterprise",
+          "Designed a LangGraph-based multi-agent architecture enabling collaborative reasoning for requirement"
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 17,
+      "candidate_name": "Vivek Chimnani",
+      "file_name": "candidate_44.pdf",
+      "eligible": true,
+      "total_score": 82,
+      "score_breakdown": {
+        "ai_project_depth": 32,
+        "python_backend": 30,
+        "cloud_fullstack": 15,
+        "github": 0,
+        "engineering_depth": 5,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "CI/CD",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "LangGraph",
+        "LLM",
+        "Concurrency",
+        "Caching",
+        "Observability",
+        "Queues"
+      ],
+      "project_summary": "Built a production-style AI research assistant using React, FastAPI, LangGraph, and LLM APIs.",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/vivekk-11",
+      "strengths": [
+        "Strong AI or agentic project evidence",
+        "Strong Python backend signal",
+        "Solid deployment or full-stack signal",
+        "Non-trivial engineering depth"
+      ],
+      "concerns": [
+        "No measurable GitHub signal"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "Built full-stack platform features using React, Next.js, FastAPI, PostgreSQL, Redis, and TypeScript.",
+          "Built scalable customer-facing applications using React, Node.js, FastAPI, PostgreSQL, Redis, and A WS.",
+          "Built backend APIs and services using FastAPI, PostgreSQL, Redis, and asynchronous processing systems."
+        ],
+        "ai": [
+          "Built a production-style AI research assistant using React, FastAPI, LangGraph, and LLM APIs."
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 18,
+      "candidate_name": "PRAJWAL A S",
+      "file_name": "candidate_22.pdf",
+      "eligible": true,
+      "total_score": 81,
+      "score_breakdown": {
+        "ai_project_depth": 40,
+        "python_backend": 30,
+        "cloud_fullstack": 8,
+        "github": 0,
+        "engineering_depth": 3,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "Flask",
+        "PostgreSQL",
+        "React",
+        "LangChain",
+        "LangGraph",
+        "RAG",
+        "Vector Search",
+        "Agents",
+        "LLM",
+        "Concurrency",
+        "Observability"
+      ],
+      "project_summary": "Python backend developer with experience building GenAI systems, REST APIs, and LLM-powered AI agents. Co-designed and",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/prajwalas1",
+      "strengths": [
+        "Strong AI or agentic project evidence",
+        "Strong Python backend signal",
+        "Solid deployment or full-stack signal",
+        "Non-trivial engineering depth"
+      ],
+      "concerns": [
+        "No measurable GitHub signal"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "Languages: Python, SQL, JavaScript",
+          "Backend: FastAPI, REST APIs, Async Python (asyncio), Pydantic, Uvicorn",
+          "● Designed a 7-stage async FastAPI pipeline: intent classification → schema grounding → few-shot prompt construction → LLM"
+        ],
+        "ai": [
+          "Python backend developer with experience building GenAI systems, REST APIs, and LLM-powered AI agents. Co-designed and",
+          "achieving 93.0% accuracy across 1,000 production queries with a locally-deployed LLM.",
+          "● Designed a 7-stage async FastAPI pipeline: intent classification → schema grounding → few-shot prompt construction → LLM"
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 19,
+      "candidate_name": "HARSHA A",
+      "file_name": "candidate_15.pdf",
+      "eligible": true,
+      "total_score": 80,
+      "score_breakdown": {
+        "ai_project_depth": 34,
+        "python_backend": 30,
+        "cloud_fullstack": 14,
+        "github": 0,
+        "engineering_depth": 2,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Docker",
+        "React",
+        "Node.js",
+        "MySQL",
+        "RAG",
+        "Vector Search",
+        "TensorFlow"
+      ],
+      "project_summary": "Implemented database schema and optimized queries to ensure efficient data storage and retrieval.",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/vs",
+      "strengths": [
+        "Strong AI or agentic project evidence",
+        "Strong Python backend signal",
+        "Solid deployment or full-stack signal"
+      ],
+      "concerns": [
+        "No measurable GitHub signal"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "- Python",
+          "CNNs. Skilled in Python, TensorFlow/Keras, and OpenCV, with a solid understanding of medical imaging",
+          "model evaluation.Technologies Used: Python, Deep Learning (CNN), React.js, Node.js. Key Features:"
+        ],
+        "ai": [
+          "Implemented database schema and optimized queries to ensure efficient data storage and retrieval.",
+          " Implemented database schema and optimized queries to ensure efficient data storage and retrieval.",
+          " Implemented face embedding storage and similarity matching using PostgreSQL (pgvector) and"
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 20,
+      "candidate_name": "Jyandeep Baishya",
+      "file_name": "candidate_07.pdf",
+      "eligible": true,
+      "total_score": 80,
+      "score_breakdown": {
+        "ai_project_depth": 40,
+        "python_backend": 26,
+        "cloud_fullstack": 11,
+        "github": 0,
+        "engineering_depth": 3,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "Redis",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "LangChain",
+        "LangGraph",
+        "RAG",
+        "Agents",
+        "LLM",
+        "Concurrency",
+        "Caching"
+      ],
+      "project_summary": "LangGraph, Next.js, TypeScript, FastAPI, S3, ChromaDB",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/leetcode",
+      "strengths": [
+        "Strong AI or agentic project evidence",
+        "Strong Python backend signal",
+        "Solid deployment or full-stack signal",
+        "Non-trivial engineering depth"
+      ],
+      "concerns": [
+        "No measurable GitHub signal"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "LangGraph, Next.js, TypeScript, FastAPI, S3, ChromaDB",
+          "and variable overlays, so the editor, API automation layer, and Python renderer could evolve without schema drift.",
+          "AI Systems: Python, LangGraph, LangChain, RAG, ReAct, Multi-Agent Systems, MCP , Tool Calling, Evals, LLMOPS"
+        ],
+        "ai": [
+          "LangGraph, Next.js, TypeScript, FastAPI, S3, ChromaDB",
+          "Redux,backend servicesandLangGraph agents, eliminating duplicated update paths and preserving deterministic state",
+          "average save payloads from 25KB to 211 bytes (121× reduction) by replaying immutable actions against a versioned"
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 21,
+      "candidate_name": "Vivek Shekhawat",
+      "file_name": "candidate_39.pdf",
+      "eligible": true,
+      "total_score": 80,
+      "score_breakdown": {
+        "ai_project_depth": 40,
+        "python_backend": 27,
+        "cloud_fullstack": 9,
+        "github": 0,
+        "engineering_depth": 4,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "React",
+        "Next.js",
+        "Node.js",
+        "Express",
+        "MySQL",
+        "LangChain",
+        "LangGraph",
+        "RAG",
+        "Vector Search",
+        "LLM",
+        "Concurrency",
+        "Observability"
+      ],
+      "project_summary": "Built a production-oriented RAG platform in Go using Gin, GORM, PostgreSQL, pgvector and Ollama to",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/vivek1592002",
+      "strengths": [
+        "Strong AI or agentic project evidence",
+        "Strong Python backend signal",
+        "Solid deployment or full-stack signal",
+        "Non-trivial engineering depth"
+      ],
+      "concerns": [
+        "No measurable GitHub signal"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "Languages:Go, Python, JavaScript, Java, C++, SQL",
+          "Backend & AI: Gin, GORM, Django, Node.js, Express.js, LangChain, LangGraph, RAG, LLMs, Ollama,",
+          "Timesheet BotPython, LangChain, LangGraph, LLMs"
+        ],
+        "ai": [
+          "Built a production-oriented RAG platform in Go using Gin, GORM, PostgreSQL, pgvector and Ollama to",
+          "ingest webpages, PDFs and text, generate embeddings, retrieve relevant chunks and answer source-grounded",
+          "Designed asynchronous document processing and bounded concurrent embedding pipelines using goroutines,"
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 22,
+      "candidate_name": "ANNISHA S",
+      "file_name": "candidate_23.pdf",
+      "eligible": true,
+      "total_score": 79,
+      "score_breakdown": {
+        "ai_project_depth": 40,
+        "python_backend": 26,
+        "cloud_fullstack": 12,
+        "github": 0,
+        "engineering_depth": 1,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "React",
+        "MongoDB",
+        "LangGraph",
+        "LLM"
+      ],
+      "project_summary": "OpenAI APIs, LangGraph to build scalable, AI-integrated web",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/annishasaravan",
+      "strengths": [
+        "Strong AI or agentic project evidence",
+        "Strong Python backend signal",
+        "Solid deployment or full-stack signal"
+      ],
+      "concerns": [
+        "No measurable GitHub signal",
+        "Limited evidence of testing, concurrency, or observability"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "Python, React.js, FastAPI, REST APIs,",
+          "into structured data using LangGraph, Groq LLM, FastAPI, and",
+          "Constructed a scalable task management app using Python,"
+        ],
+        "ai": [
+          "OpenAI APIs, LangGraph to build scalable, AI-integrated web",
+          "AI-FIRST CRM SYSTEMS USING LANGGRAPH AND LLM",
+          "Designed an AI-driven CRM system converting natural language"
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 23,
+      "candidate_name": "M SAI KUSHITH",
+      "file_name": "candidate_06.pdf",
+      "eligible": true,
+      "total_score": 78,
+      "score_breakdown": {
+        "ai_project_depth": 40,
+        "python_backend": 30,
+        "cloud_fullstack": 8,
+        "github": 0,
+        "engineering_depth": 0,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "Django",
+        "PostgreSQL",
+        "React",
+        "TypeScript",
+        "LangChain",
+        "LangGraph",
+        "RAG",
+        "LLM",
+        "scikit-learn"
+      ],
+      "project_summary": "Built a OCR document verification pipeline (Tesseract + Nvidia NIM LLM) with Kannada-language support, validated",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/summary",
+      "strengths": [
+        "Strong AI or agentic project evidence",
+        "Strong Python backend signal",
+        "Solid deployment or full-stack signal"
+      ],
+      "concerns": [
+        "No measurable GitHub signal",
+        "Limited evidence of testing, concurrency, or observability"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "Backend: Python, Django, FastAPI, PostgreSQL, SQL, REST APIs, Java, Hibernate, JDBC, J2EE",
+          "Integrated Jitsi for virtual property site visits with complete booking and session management via Django REST APIs.",
+          "Cancer Disease Detection — Python, Scikit-Learn, ML"
+        ],
+        "ai": [
+          "Built a OCR document verification pipeline (Tesseract + Nvidia NIM LLM) with Kannada-language support, validated",
+          "PDF Document Analysis System — Python, NLP, ML",
+          "Built an automated pipeline for keyword extraction and text analysis from PDF documents using NLP."
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 24,
+      "candidate_name": "kirnaregal7@gmail.com",
+      "file_name": "candidate_47.pdf",
+      "eligible": true,
+      "total_score": 74,
+      "score_breakdown": {
+        "ai_project_depth": 40,
+        "python_backend": 18,
+        "cloud_fullstack": 15,
+        "github": 0,
+        "engineering_depth": 1,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "Docker",
+        "AWS",
+        "React",
+        "Next.js",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "LangChain",
+        "LangGraph",
+        "RAG",
+        "Agents",
+        "LLM",
+        "Observability"
+      ],
+      "project_summary": "LLM-powered",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/kiran-naregal",
+      "strengths": [
+        "Strong AI or agentic project evidence",
+        "Strong Python backend signal",
+        "Solid deployment or full-stack signal"
+      ],
+      "concerns": [
+        "No measurable GitHub signal",
+        "Limited evidence of testing, concurrency, or observability"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "Python,",
+          "Python",
+          "Python"
+        ],
+        "ai": [
+          "LLM-powered",
+          "LangChain",
+          "LLM-powered"
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 25,
+      "candidate_name": "atulofficial02@gmail.com",
+      "file_name": "candidate_25.pdf",
+      "eligible": true,
+      "total_score": 71,
+      "score_breakdown": {
+        "ai_project_depth": 40,
+        "python_backend": 19,
+        "cloud_fullstack": 12,
+        "github": 0,
+        "engineering_depth": 0,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "Flask",
+        "GCP",
+        "MySQL",
+        "RAG",
+        "LLM",
+        "scikit-learn",
+        "Streamlit"
+      ],
+      "project_summary": "◦Worked with Google Cloud services including Compute Engine, Cloud Storage, and Vertex AI through guided",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/atulkumar2025",
+      "strengths": [
+        "Strong AI or agentic project evidence",
+        "Strong Python backend signal",
+        "Solid deployment or full-stack signal"
+      ],
+      "concerns": [
+        "No measurable GitHub signal",
+        "Limited evidence of testing, concurrency, or observability"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "SmartA TS: Developed an AI-powered resume screening application usingPythonandStreamlit. Integrated advanced Large",
+          "AI-Driven Question Paper Generator: Developed an automated Question Paper Generator usingPythonand",
+          "Quick-T ext App: Built a text summarization web application and REST API usingStreamlitandFlask. Engineered a"
+        ],
+        "ai": [
+          "◦Worked with Google Cloud services including Compute Engine, Cloud Storage, and Vertex AI through guided",
+          "AI-Driven Question Paper Generator: Developed an automated Question Paper Generator usingPythonand",
+          "dual-model NLP pipeline featuring extractive summarization via LexRank (Sumy) and abstractive summarization using the"
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 26,
+      "candidate_name": "parshuramkumarofficial725@gmail.com",
+      "file_name": "candidate_45.pdf",
+      "eligible": true,
+      "total_score": 70,
+      "score_breakdown": {
+        "ai_project_depth": 24,
+        "python_backend": 28,
+        "cloud_fullstack": 15,
+        "github": 0,
+        "engineering_depth": 3,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "Flask",
+        "Django",
+        "Redis",
+        "Docker",
+        "AWS",
+        "CI/CD",
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "MySQL",
+        "RAG",
+        "Concurrency",
+        "Caching",
+        "Queues"
+      ],
+      "project_summary": "localStorage",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/professional",
+      "strengths": [
+        "Strong AI or agentic project evidence",
+        "Strong Python backend signal",
+        "Solid deployment or full-stack signal",
+        "Non-trivial engineering depth"
+      ],
+      "concerns": [
+        "No measurable GitHub signal"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "Python,",
+          "Django,",
+          "Flask,"
+        ],
+        "ai": [
+          "localStorage"
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 27,
+      "candidate_name": "pvjayavardhan6@gmail.com",
+      "file_name": "candidate_19.pdf",
+      "eligible": true,
+      "total_score": 70,
+      "score_breakdown": {
+        "ai_project_depth": 40,
+        "python_backend": 19,
+        "cloud_fullstack": 10,
+        "github": 0,
+        "engineering_depth": 1,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "Flask",
+        "Docker",
+        "AWS",
+        "React",
+        "MySQL",
+        "RAG",
+        "Agents",
+        "LLM",
+        "PyTorch",
+        "TensorFlow",
+        "scikit-learn",
+        "Observability"
+      ],
+      "project_summary": "Research intern – Machine learning January 2026 – Present",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/leetcode",
+      "strengths": [
+        "Strong AI or agentic project evidence",
+        "Strong Python backend signal",
+        "Solid deployment or full-stack signal"
+      ],
+      "concerns": [
+        "No measurable GitHub signal",
+        "Limited evidence of testing, concurrency, or observability"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "Automated Student Section Allocation Platform : Engineered full-stack solution (Python + React + MySQL)",
+          "system over private vehicle service data using Ollama and Python. Built multi-step pipelines for query processing, context"
+        ],
+        "ai": [
+          "Research intern – Machine learning January 2026 – Present",
+          "◦ ML-Based Ocean Data Reconstruction : Developed machine learning models (DINCAE) for spatial gap filling in",
+          "Workshop AI Assistant – RAG (LLM System) : Designed and deployed a Retrieval-Augmented Generation (RAG)"
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 28,
+      "candidate_name": "Saif Ali Nagori",
+      "file_name": "candidate_36.pdf",
+      "eligible": true,
+      "total_score": 70,
+      "score_breakdown": {
+        "ai_project_depth": 36,
+        "python_backend": 23,
+        "cloud_fullstack": 11,
+        "github": 0,
+        "engineering_depth": 0,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "Flask",
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "RAG",
+        "LLM"
+      ],
+      "project_summary": "The system leverages LLM/RAG techniques to answer queries on EV types, charging, benefits, and",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/nagorisaifali",
+      "strengths": [
+        "Strong AI or agentic project evidence",
+        "Strong Python backend signal",
+        "Solid deployment or full-stack signal"
+      ],
+      "concerns": [
+        "No measurable GitHub signal",
+        "Limited evidence of testing, concurrency, or observability"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "Programming Languages: C, C++, and Python",
+          "W eb T echnologies:HTML, CSS, JavaScript, React,js , Node.js , Flask And FASTAPI",
+          "vehicles. It uses a Flask backend with a chatbot API and a React frontend for user interaction."
+        ],
+        "ai": [
+          "The system leverages LLM/RAG techniques to answer queries on EV types, charging, benefits, and",
+          "Certified in AI-LLM Role from HCL Tech ."
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 29,
+      "candidate_name": "Aswin Raj R",
+      "file_name": "candidate_49.pdf",
+      "eligible": true,
+      "total_score": 65,
+      "score_breakdown": {
+        "ai_project_depth": 40,
+        "python_backend": 10,
+        "cloud_fullstack": 15,
+        "github": 0,
+        "engineering_depth": 0,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "AWS",
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "MySQL",
+        "LangChain",
+        "RAG",
+        "LLM",
+        "TensorFlow"
+      ],
+      "project_summary": "Engineered Talkwise AI, a proof-of-concept AI meeting assistant integrating LLMs, RAG, and real-time",
+      "github_summary": "No GitHub profile found on the resume.",
+      "strengths": [
+        "Strong AI or agentic project evidence",
+        "Solid deployment or full-stack signal"
+      ],
+      "concerns": [
+        "No measurable GitHub signal",
+        "Limited evidence of testing, concurrency, or observability"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "Tools and technologies used: Python, LangChain, RAG, OpenAI API.",
+          "Tools & technologies used: Python, TensorFlow, Federated Learning, Vision Transformer (ViT), Deep",
+          "Programming Languages : C, C++, SQL, Python, Java, SAP ABAP."
+        ],
+        "ai": [
+          "Engineered Talkwise AI, a proof-of-concept AI meeting assistant integrating LLMs, RAG, and real-time",
+          "Tools and technologies used: Python, LangChain, RAG, OpenAI API.",
+          "times by 40% and added LLM-powered chatbot to assist users with car recommendations."
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 30,
+      "candidate_name": "SHUBHANSHU NAVADIYA",
+      "file_name": "candidate_12.pdf",
+      "eligible": true,
+      "total_score": 65,
+      "score_breakdown": {
+        "ai_project_depth": 40,
+        "python_backend": 18,
+        "cloud_fullstack": 6,
+        "github": 0,
+        "engineering_depth": 1,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "CI/CD",
+        "MySQL",
+        "LangChain",
+        "LlamaIndex",
+        "RAG",
+        "Vector Search",
+        "Agents",
+        "LLM",
+        "PyTorch",
+        "scikit-learn",
+        "Streamlit"
+      ],
+      "project_summary": "conversational AI systems. Developed 20+ AI POCs spanning LLM agents, document intelligence, OCR/VLMs, semantic",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/professional",
+      "strengths": [
+        "Strong AI or agentic project evidence",
+        "Strong Python backend signal"
+      ],
+      "concerns": [
+        "No measurable GitHub signal",
+        "Limited evidence of testing, concurrency, or observability"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "Programming & Data: Python, SQL, MySQL, SQLite, Pandas, NumPy",
+          "ML & NLP: Scikit-learn, PyTorch, Hugging Face Transformers, LightGBM, XGBoost, DistilBERT, RoBERTa, TF-IDF",
+          "Backend & AI Tools: FastAPI, REST APIs, GitHub Actions, Git, LiveKit, Cartesia, Playwright, Gradio, Streamlit"
+        ],
+        "ai": [
+          "conversational AI systems. Developed 20+ AI POCs spanning LLM agents, document intelligence, OCR/VLMs, semantic",
+          "Built an end-to-end RAG pipeline for insurance policy documents using LlamaParse, Qdrant/Weaviate,",
+          "LangChain, and LlamaIndex for semantic retrieval, metadata extraction, and LLM-based reasoning."
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 31,
+      "candidate_name": "DORNIPADU KARTHIKA CHAITRIKA",
+      "file_name": "candidate_24.pdf",
+      "eligible": true,
+      "total_score": 60,
+      "score_breakdown": {
+        "ai_project_depth": 40,
+        "python_backend": 20,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "Flask",
+        "Django",
+        "RAG",
+        "Vector Search",
+        "Agents",
+        "LLM"
+      ],
+      "project_summary": "Developed a diabetes prediction system using Machine Learning algorithms on a",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/karthikadornipadu",
+      "strengths": [
+        "Strong AI or agentic project evidence",
+        "Strong Python backend signal"
+      ],
+      "concerns": [
+        "No measurable GitHub signal",
+        "Limited evidence of testing, concurrency, or observability"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "Built a Flask-based web application for real-time tweet classification and achieved",
+          "Python",
+          "Django"
+        ],
+        "ai": [
+          "Developed a diabetes prediction system using Machine Learning algorithms on a",
+          "Developed a Retrieval -Augmented Generation (RAG) based AI assistant using",
+          "Implemented semantic search using vector embeddings and cosine similarity for"
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 32,
+      "candidate_name": "VIKRAM MADHYASTA",
+      "file_name": "candidate_29.pdf",
+      "eligible": true,
+      "total_score": 59,
+      "score_breakdown": {
+        "ai_project_depth": 32,
+        "python_backend": 10,
+        "cloud_fullstack": 15,
+        "github": 0,
+        "engineering_depth": 2,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "Docker",
+        "AWS",
+        "CI/CD",
+        "RAG",
+        "LLM",
+        "scikit-learn",
+        "Observability",
+        "Kubernetes"
+      ],
+      "project_summary": "Tools: Jenkins, Docker, Kubernetes, ArgoCD, AWS (ECR, EC2), Git/GitHub, Python, OpenAI API",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/professional",
+      "strengths": [
+        "Strong AI or agentic project evidence",
+        "Solid deployment or full-stack signal"
+      ],
+      "concerns": [
+        "No measurable GitHub signal"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "Programming & Data: Python, Java (fundamentals), SQL, DBMS (beginner-intermediate)",
+          "Tools: Jenkins, Docker, Kubernetes, ArgoCD, AWS (ECR, EC2), Git/GitHub, Python, OpenAI API",
+          "Tools: AWS S3, Lambda, API Gateway, CloudWatch, IAM, Python, Scikit-learn"
+        ],
+        "ai": [
+          "Tools: Jenkins, Docker, Kubernetes, ArgoCD, AWS (ECR, EC2), Git/GitHub, Python, OpenAI API",
+          "● Integrated an OpenAI-powered log analyser into the Jenkins failure hook that auto-diagnoses root cause and suggests a fix,",
+          "● Implemented a remote backend with S3 state storage and DynamoDB state locking, preventing concurrent -run state"
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 33,
+      "candidate_name": "VISHWAS BADIGER",
+      "file_name": "candidate_05.pdf",
+      "eligible": true,
+      "total_score": 59,
+      "score_breakdown": {
+        "ai_project_depth": 32,
+        "python_backend": 15,
+        "cloud_fullstack": 12,
+        "github": 0,
+        "engineering_depth": 0,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "Flask",
+        "React",
+        "Node.js",
+        "MongoDB",
+        "MySQL",
+        "RAG",
+        "LLM",
+        "scikit-learn"
+      ],
+      "project_summary": "Completed a 405-hour Capgemini-sponsored Java Fullstack Development Program covering Java, Spring Boot, React.js, MySQL, REST",
+      "github_summary": "No GitHub profile found on the resume.",
+      "strengths": [
+        "Strong AI or agentic project evidence",
+        "Solid deployment or full-stack signal"
+      ],
+      "concerns": [
+        "No measurable GitHub signal",
+        "Limited evidence of testing, concurrency, or observability"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "Languages: Java, JavaScript, Python, C++",
+          "Backend: Spring Boot, Node.js, REST APIs, Flask, PHP",
+          "Soil Classification for Sustainable Agriculture — Python, Flask, Scikit-learn Jan 2024 – Jun 2024"
+        ],
+        "ai": [
+          "Completed a 405-hour Capgemini-sponsored Java Fullstack Development Program covering Java, Spring Boot, React.js, MySQL, REST",
+          "Optimized database queries and API logic, cutting average response time by 30%.",
+          "Engineered a machine learning web application that classifies soil types based on key engineering properties (texture, pH, moisture content,"
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 34,
+      "candidate_name": "Gayathri Palraj",
+      "file_name": "candidate_27.pdf",
+      "eligible": true,
+      "total_score": 58,
+      "score_breakdown": {
+        "ai_project_depth": 24,
+        "python_backend": 14,
+        "cloud_fullstack": 15,
+        "github": 0,
+        "engineering_depth": 5,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "CI/CD",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "MySQL",
+        "RAG"
+      ],
+      "project_summary": "HTML5, CSS3, JavaScript, Bootstrap, Fetch API, Local Storage, JSON",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/portfolio",
+      "strengths": [
+        "Strong AI or agentic project evidence",
+        "Solid deployment or full-stack signal",
+        "Non-trivial engineering depth"
+      ],
+      "concerns": [
+        "No measurable GitHub signal"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "Languages: JavaScript (ES6+), TypeScript, Python, Java",
+          "● Built responsive, multi-tier user interfaces for an online recipe web application using React.js, HTML5, CSS3, JavaScript, and Python."
+        ],
+        "ai": [
+          "HTML5, CSS3, JavaScript, Bootstrap, Fetch API, Local Storage, JSON"
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 35,
+      "candidate_name": "Yuvaraj R",
+      "file_name": "candidate_04.pdf",
+      "eligible": true,
+      "total_score": 56,
+      "score_breakdown": {
+        "ai_project_depth": 18,
+        "python_backend": 27,
+        "cloud_fullstack": 8,
+        "github": 0,
+        "engineering_depth": 3,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "Docker",
+        "scikit-learn",
+        "Observability",
+        "Streamlit"
+      ],
+      "project_summary": "Docker, and Jenkins. Skilled in building data pipelines, machine learning models, and web applications. Experienced in",
+      "github_summary": "No GitHub profile found on the resume.",
+      "strengths": [
+        "Strong Python backend signal",
+        "Solid deployment or full-stack signal",
+        "Non-trivial engineering depth"
+      ],
+      "concerns": [
+        "No measurable GitHub signal"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "Python, SQL, Java and R",
+          "Django, NumPy, Pandas,",
+          "Streamlit, Scikit-learn"
+        ],
+        "ai": [
+          "Docker, and Jenkins. Skilled in building data pipelines, machine learning models, and web applications. Experienced in"
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 36,
+      "candidate_name": "JAYA NANDI",
+      "file_name": "candidate_14.pdf",
+      "eligible": true,
+      "total_score": 49,
+      "score_breakdown": {
+        "ai_project_depth": 32,
+        "python_backend": 10,
+        "cloud_fullstack": 7,
+        "github": 0,
+        "engineering_depth": 0,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "AWS",
+        "React",
+        "MySQL",
+        "RAG"
+      ],
+      "project_summary": "Job Shop Scheduling Using SGO | Python, Machine Learning 2025",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/professional",
+      "strengths": [
+        "Strong AI or agentic project evidence"
+      ],
+      "concerns": [
+        "No measurable GitHub signal",
+        "Limited evidence of testing, concurrency, or observability"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "Languages: Python, Java, C, JavaScript, SQL",
+          "Data & Analytics: Data Cleaning, Data Visualization, Statistical Analysis, Pandas, NumPy, Power BI, Tableau",
+          "Spearheaded data cleansing and analysis of customer purchase history (2M+ records) using Python and SQL,"
+        ],
+        "ai": [
+          "Job Shop Scheduling Using SGO | Python, Machine Learning 2025",
+          "Presented research on AI-driven optimization at the 7th Malaysian Conference on Artificial Intelligence,"
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": 37,
+      "candidate_name": "NISARGA H. S.",
+      "file_name": "candidate_34.pdf",
+      "eligible": true,
+      "total_score": 45,
+      "score_breakdown": {
+        "ai_project_depth": 24,
+        "python_backend": 10,
+        "cloud_fullstack": 10,
+        "github": 0,
+        "engineering_depth": 1,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "CI/CD",
+        "Node.js",
+        "MySQL",
+        "RAG"
+      ],
+      "project_summary": "of-Purpose (iEoP) data retention workflows. Leveraged Git/GitHub, pull",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/copilot",
+      "strengths": [
+        "Strong AI or agentic project evidence",
+        "Solid deployment or full-stack signal"
+      ],
+      "concerns": [
+        "No measurable GitHub signal",
+        "Limited evidence of testing, concurrency, or observability"
+      ],
+      "rejection_reasons": [],
+      "evidence": {
+        "python": [
+          "Python Java Nodejs",
+          "Random Password Generator using Python"
+        ],
+        "ai": [
+          "of-Purpose (iEoP) data retention workflows. Leveraged Git/GitHub, pull"
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": null,
+      "candidate_name": "Kartikay Sinha",
+      "file_name": "candidate_01.pdf",
+      "eligible": false,
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Docker",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "MySQL",
+        "RAG",
+        "Observability"
+      ],
+      "project_summary": "Built an AI-driven image processing engine withRazorpay API integrationfor secure transaction handling and automated",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/ks1745",
+      "strengths": [],
+      "concerns": [
+        "Did not meet the hard eligibility filters"
+      ],
+      "rejection_reasons": [
+        "No evidence of Python stack"
+      ],
+      "evidence": {
+        "python": [],
+        "ai": [
+          "Built an AI-driven image processing engine withRazorpay API integrationfor secure transaction handling and automated"
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": null,
+      "candidate_name": "SHIVAM RAJ",
+      "file_name": "candidate_02.pdf",
+      "eligible": false,
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Docker",
+        "CI/CD",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "RAG",
+        "Observability"
+      ],
+      "project_summary": "Automated deployment pipelines using cloud-based CI/CD tools, cutting average deployment time by 50%.",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/copilot",
+      "strengths": [],
+      "concerns": [
+        "Did not meet the hard eligibility filters"
+      ],
+      "rejection_reasons": [
+        "No evidence of Python stack"
+      ],
+      "evidence": {
+        "python": [],
+        "ai": [
+          "Automated deployment pipelines using cloud-based CI/CD tools, cutting average deployment time by 50%."
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": null,
+      "candidate_name": "Agam Jain",
+      "file_name": "candidate_03.pdf",
+      "eligible": false,
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Caching"
+      ],
+      "project_summary": "",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/github",
+      "strengths": [],
+      "concerns": [
+        "Did not meet the hard eligibility filters"
+      ],
+      "rejection_reasons": [
+        "No AI/agentic project evidence"
+      ],
+      "evidence": {
+        "python": [
+          "Languages: C++, Python, Java, HTML, CSS, JavaScript, TypeScript, SQL, GraphQL",
+          "with a FastAPI backend and SQL database."
+        ],
+        "ai": []
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": null,
+      "candidate_name": "KRISHAN KANT",
+      "file_name": "candidate_09.pdf",
+      "eligible": false,
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "React",
+        "TypeScript",
+        "MongoDB",
+        "LangChain",
+        "RAG",
+        "Vector Search",
+        "LLM",
+        "Concurrency",
+        "Caching",
+        "Observability",
+        "Queues"
+      ],
+      "project_summary": "AI-Powered Resume Screener [GitHub] | Java, Spring Boot, MongoDB, Spring AI, OpenAI, Maven, Docker, Swagger, JUnit",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/professional",
+      "strengths": [],
+      "concerns": [
+        "Did not meet the hard eligibility filters"
+      ],
+      "rejection_reasons": [
+        "No evidence of Python stack"
+      ],
+      "evidence": {
+        "python": [
+          "Languages: Java, Python, SQL, C++"
+        ],
+        "ai": [
+          "AI-Powered Resume Screener [GitHub] | Java, Spring Boot, MongoDB, Spring AI, OpenAI, Maven, Docker, Swagger, JUnit",
+          "● Built a Java 17 / Spring Boot 3.3 backend integrating the OpenAI API via Spring AI to automate recruiter resume screening; designed an",
+          "● Designed endpoints for job creation, LLM-ranked candidate retrieval, and reporting with strict HTTP handling; containerized MongoDB via Docker"
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": null,
+      "candidate_name": "MD AZIZUL ISLAM",
+      "file_name": "candidate_11.pdf",
+      "eligible": false,
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "PostgreSQL",
+        "Redis",
+        "AWS",
+        "CI/CD",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "RAG",
+        "Vector Search",
+        "LLM",
+        "Concurrency",
+        "Caching",
+        "Observability"
+      ],
+      "project_summary": "Engineered an AI-powered RAG platform using React, Supabase, PostgreSQL, and",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/azizul-11",
+      "strengths": [],
+      "concerns": [
+        "Did not meet the hard eligibility filters"
+      ],
+      "rejection_reasons": [
+        "No evidence of Python stack"
+      ],
+      "evidence": {
+        "python": [],
+        "ai": [
+          "Engineered an AI-powered RAG platform using React, Supabase, PostgreSQL, and"
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": null,
+      "candidate_name": "Harshit Kumar Mishra",
+      "file_name": "candidate_18.pdf",
+      "eligible": false,
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "GCP",
+        "AWS",
+        "CI/CD",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "RAG",
+        "Testing",
+        "Caching",
+        "Observability"
+      ],
+      "project_summary": "Achieved 80% unit test coverage, ensuring stable and regression-free UI components.",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/github",
+      "strengths": [],
+      "concerns": [
+        "Did not meet the hard eligibility filters"
+      ],
+      "rejection_reasons": [
+        "No evidence of Python stack"
+      ],
+      "evidence": {
+        "python": [],
+        "ai": [
+          "Achieved 80% unit test coverage, ensuring stable and regression-free UI components."
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": null,
+      "candidate_name": "contribute to innovative projects.",
+      "file_name": "candidate_20.pdf",
+      "eligible": false,
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "React",
+        "RAG",
+        "Observability"
+      ],
+      "project_summary": "",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/priya291102",
+      "strengths": [],
+      "concerns": [
+        "Did not meet the hard eligibility filters"
+      ],
+      "rejection_reasons": [
+        "No evidence of Python stack",
+        "No AI/agentic project evidence"
+      ],
+      "evidence": {
+        "python": [],
+        "ai": []
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": null,
+      "candidate_name": "manojkumar.k.r0904@gmail.com",
+      "file_name": "candidate_21.pdf",
+      "eligible": false,
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "Flask",
+        "React",
+        "MySQL",
+        "RAG",
+        "PyTorch",
+        "TensorFlow",
+        "scikit-learn",
+        "Observability",
+        "Streamlit"
+      ],
+      "project_summary": "Designed relational databases for efficient data storage and retrieval.",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/digital",
+      "strengths": [],
+      "concerns": [
+        "Did not meet the hard eligibility filters"
+      ],
+      "rejection_reasons": [
+        "No evidence of Python stack"
+      ],
+      "evidence": {
+        "python": [],
+        "ai": [
+          "Designed relational databases for efficient data storage and retrieval."
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": null,
+      "candidate_name": "Shreya Chauhan",
+      "file_name": "candidate_31.pdf",
+      "eligible": false,
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "Redis",
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "MySQL",
+        "Concurrency",
+        "Caching",
+        "Observability",
+        "Queues"
+      ],
+      "project_summary": "",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/github",
+      "strengths": [],
+      "concerns": [
+        "Did not meet the hard eligibility filters"
+      ],
+      "rejection_reasons": [
+        "No evidence of Python stack",
+        "No AI/agentic project evidence"
+      ],
+      "evidence": {
+        "python": [
+          "Languages: Java, C++, Python, JavaScript, SQL"
+        ],
+        "ai": []
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": null,
+      "candidate_name": "Mukul Pal",
+      "file_name": "candidate_32.pdf",
+      "eligible": false,
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "AWS",
+        "CI/CD",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "RAG",
+        "LLM",
+        "Concurrency",
+        "Caching",
+        "Queues"
+      ],
+      "project_summary": "Integrated MUX for adaptive video streaming and AWS S3 for scalable media storage and delivery",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/mukulpal03",
+      "strengths": [],
+      "concerns": [
+        "Did not meet the hard eligibility filters"
+      ],
+      "rejection_reasons": [
+        "No evidence of Python stack"
+      ],
+      "evidence": {
+        "python": [],
+        "ai": [
+          "Integrated MUX for adaptive video streaming and AWS S3 for scalable media storage and delivery",
+          "Implemented a hybrid storage layer active project ﬁles are hot-cached on disk and volume-mounted into containers",
+          "for low-latency I/O, then synced to S3-compatible blob storage on idle."
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": null,
+      "candidate_name": "ANJALI PATIL",
+      "file_name": "candidate_42.pdf",
+      "eligible": false,
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "MySQL",
+        "Caching",
+        "Observability"
+      ],
+      "project_summary": "",
+      "github_summary": "No GitHub profile found on the resume.",
+      "strengths": [],
+      "concerns": [
+        "Did not meet the hard eligibility filters"
+      ],
+      "rejection_reasons": [
+        "No evidence of Python stack",
+        "No AI/agentic project evidence"
+      ],
+      "evidence": {
+        "python": [],
+        "ai": []
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": null,
+      "candidate_name": "AABHAR GUPTA",
+      "file_name": "candidate_46.pdf",
+      "eligible": false,
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "PostgreSQL",
+        "Redis",
+        "GCP",
+        "CI/CD",
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "RAG",
+        "Testing",
+        "Caching"
+      ],
+      "project_summary": "Integrated Google Cloud Cloud Storage buckets for secure file upload, retrieval, and document management, enabling",
+      "github_summary": "No GitHub profile found on the resume.",
+      "strengths": [],
+      "concerns": [
+        "Did not meet the hard eligibility filters"
+      ],
+      "rejection_reasons": [
+        "No evidence of Python stack"
+      ],
+      "evidence": {
+        "python": [],
+        "ai": [
+          "Integrated Google Cloud Cloud Storage buckets for secure file upload, retrieval, and document management, enabling",
+          "Developed and executed end-to-end automation test scripts using playwright and node.js, increasing test coverages from"
+        ]
+      },
+      "parse_status": "parsed",
+      "error": null
+    },
+    {
+      "rank": null,
+      "candidate_name": "NIDHI KM",
+      "file_name": "candidate_48.pdf",
+      "eligible": false,
+      "total_score": 0,
+      "score_breakdown": {
+        "ai_project_depth": 0,
+        "python_backend": 0,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0,
+        "project_quality_penalty": 0
+      },
+      "matched_skills": [
+        "Python",
+        "AWS",
+        "React",
+        "MySQL",
+        "TensorFlow"
+      ],
+      "project_summary": "",
+      "github_summary": "GitHub enrichment failed: 403 Client Error: rate limit exceeded for url: https://api.github.com/users/nidhi-km",
+      "strengths": [],
+      "concerns": [
+        "Did not meet the hard eligibility filters"
+      ],
+      "rejection_reasons": [
+        "No AI/agentic project evidence"
+      ],
+      "evidence": {
+        "python": [
+          "Smart Street Lighting System using MLRaspberry Pi 4, TensorFlow Lite, OpenCV, Python"
+        ],
+        "ai": []
+      },
+      "parse_status": "parsed",
+      "error": null
+    }
+  ]
+}
